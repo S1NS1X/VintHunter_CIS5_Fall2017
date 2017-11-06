@@ -1,0 +1,56 @@
+
+/* 
+ * File:   main.cpp
+ * Author: Hunter Vint
+ * Created on November 4, 2017 11:54 PM
+ * Purpose: Project 1
+ * 
+ * 
+ * 
+ */
+/*
+*List for program objectives:
+*gonna do blackjack. (im pretty sure a few people are already doing this but
+*i wanted to do this for a while so i saw it first.)
+*
+*going to go with a computer opponent over a second player to make it smoother.
+*
+*use loops and functions... ill figure it out.
+*
+*hardest part will be figuring out a way to randomly generate cards.(properly)
+*/
+//System Libraries
+//Input/Output Stream Library
+    //Standard Name-space under which System Libraries reside
+    //input output manipulator
+    //math library
+    //c standard library
+    //string library
+    //file input output library
+    //random number generator
+//Function Prototypes
+    //Card Generation prototype
+    //output for the cards prototype
+    //check for win/loss conditions prototype
+    //opponent prototype 
+//Execution Begins Here!
+//Variable Declaration (under 7 characters)
+    //set up each players hand
+    //dealer and player card declaration
+//Variable Initialization
+    //explain rules
+    //cout for win for 21 on first hand or exact 21
+    //loss for any value over 21
+    //loss for value over 21 for computer or dealer
+    //choice of stay or hit for hand under 21
+    //recognition for capital and lowercase input of Hit
+//Process Mapping - Only Inputs
+//user input/data
+//Output
+    //output into file "results"
+//Exit function main/Exit the program
+//prototypes begin here
+    //this prototype is for the card generator
+    //checks value of hands
+    //determines value of ace
+    //checks value of dealer hand
